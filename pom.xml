@@ -29,12 +29,13 @@
 		    <version>1.2</version>
 		</dependency>
 		        
-		<!-- Dependencia para darle más seguridad a las contraseñas: Apache Commons Codec -->        
-		 <dependency>
-		    <groupId>commons-codec</groupId>
-		    <artifactId>commons-codec</artifactId>
-		    <version>1.15</version>
-		</dependency>       
+		<!-- Dependencia para registrar los inicio de sesión fallidos y exitosos: Apache Commons Codec -->        
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.11.0</version>
+		</dependency>
+
         
     </dependencies>  
   
